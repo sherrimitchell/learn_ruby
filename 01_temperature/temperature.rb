@@ -1,10 +1,7 @@
-def ftoc(temperature)
-	 ftoc == (celsius * 5 / 9) +32
+def ftoc(f)
+	 (f - 32) * (5.0 / 9.0) 
 end
 
-# if original_temperature == 'c'
-#     new_temperature = (current_temperature * 5 / 9) + 32
-#     puts "New temperature: #{new_temperature} F"
-# elsif original_temperature == 'f'
-#     new_temperature = (current_temperature - 32) * 9 / 5
-#     puts "New temperature: #{new_temperature} C"
+def ctof(c)
+	c * (9.0 / 5.0) + 32
+end
