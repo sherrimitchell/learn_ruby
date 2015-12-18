@@ -117,7 +117,7 @@ require "hello"
 
 describe "the hello function" do
   it "says hello" do
-    hello.should == "Hello!"
+    expect(hello).to eq ("Hello!")
   end
 end
 
